@@ -1,0 +1,15 @@
+{
+    "name": "rolland/dbg",
+    "authors": [
+        {
+            "name": "Alex Kharunzha",
+            "email": "rolland@alterego.biz.ua"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Rolland\\": "./src" 
+        }
+    }
+}
