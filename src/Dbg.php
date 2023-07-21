@@ -10,7 +10,7 @@ class Dbg{
     static $lastpoint;
 
     static function reset(){
-        self::$start = microtime(true);
+        self::$start = microtime(false);
         self::$lastpoint = self::$start;
     }
 

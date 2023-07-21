@@ -6,10 +6,12 @@
             "email": "rolland@alterego.biz.ua"
         }
     ],
-    "require": {},
     "autoload": {
         "psr-4": {
             "Rolland\\": "./src" 
         }
+    },
+    "require-dev": {
+        "rector/rector": "^0.17.6"
     }
 }
